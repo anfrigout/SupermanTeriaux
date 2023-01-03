@@ -43,7 +43,7 @@ Vous devrez ensuite créer la table ***materiau*** à l'aide du fichier `sql/INI
 Pour ouvrir l'application, vous pouvez ensuite lancer la commande suivante :
 
 ```bash
-python3 script/App.py
+python3.10 pappl/__main__.py
 ```
 ## Autres
 
