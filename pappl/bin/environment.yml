@@ -1,0 +1,12 @@
+name: pappl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - psycopg2
+  - numpy
+  - matplotlib
+  - json
+  - poetry
+  - pyqt
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/pappl

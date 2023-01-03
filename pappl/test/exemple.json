@@ -1,0 +1,188 @@
+{
+    "__type__": "Projet",
+    "nom_projet": "TEST",
+    "liste_materiaux": [
+        {
+            "__type__": "Materiau",
+            "nom": "M1",
+            "ref": "R1",
+            "E1": "134000",
+            "E2": "7000",
+            "G12": "4200",
+            "v12": "0.25",
+            "s11c": "-1400",
+            "s22c": "-200",
+            "s11t": "1500",
+            "s22t": "50",
+            "s12": "75",
+            "pourcentage_fibre": "10"
+        }
+    ],
+    "chargement_courant": 0,
+    "liste_chargements": [
+        {
+            "__type__": "Chargement",
+            "nom": "C1",
+            "nx": -1000.0,
+            "ny": 0.0,
+            "txy": 0.0,
+            "mx": 0.0,
+            "my": 0.0,
+            "mxy": 0.0
+        }
+    ],
+    "plaque": {
+        "__type__": "Plaque",
+        "listePlis": [
+            {
+                "__type__": "Pli",
+                "orientation": 0,
+                "materiau": {
+                    "__type__": "Materiau",
+                    "nom": "M1",
+                    "ref": "R1",
+                    "E1": "134000",
+                    "E2": "7000",
+                    "G12": "4200",
+                    "v12": "0.25",
+                    "s11c": "-1400",
+                    "s22c": "-200",
+                    "s11t": "1500",
+                    "s22t": "50",
+                    "s12": "75",
+                    "pourcentage_fibre": "10"
+                },
+                "epaisseur": 0.25,
+                "positionRelPlaque": 1
+            },
+            {
+                "__type__": "Pli",
+                "orientation": 45,
+                "materiau": {
+                    "__type__": "Materiau",
+                    "nom": "M1",
+                    "ref": "R1",
+                    "E1": "134000",
+                    "E2": "7000",
+                    "G12": "4200",
+                    "v12": "0.25",
+                    "s11c": "-1400",
+                    "s22c": "-200",
+                    "s11t": "1500",
+                    "s22t": "50",
+                    "s12": "75",
+                    "pourcentage_fibre": "10"
+                },
+                "epaisseur": 0.25,
+                "positionRelPlaque": 2
+            },
+            {
+                "__type__": "Pli",
+                "orientation": -45,
+                "materiau": {
+                    "__type__": "Materiau",
+                    "nom": "M1",
+                    "ref": "R1",
+                    "E1": "134000",
+                    "E2": "7000",
+                    "G12": "4200",
+                    "v12": "0.25",
+                    "s11c": "-1400",
+                    "s22c": "-200",
+                    "s11t": "1500",
+                    "s22t": "50",
+                    "s12": "75",
+                    "pourcentage_fibre": "10"
+                },
+                "epaisseur": 0.25,
+                "positionRelPlaque": 3
+            },
+            {
+                "__type__": "Pli",
+                "orientation": 90,
+                "materiau": {
+                    "__type__": "Materiau",
+                    "nom": "M1",
+                    "ref": "R1",
+                    "E1": "134000",
+                    "E2": "7000",
+                    "G12": "4200",
+                    "v12": "0.25",
+                    "s11c": "-1400",
+                    "s22c": "-200",
+                    "s11t": "1500",
+                    "s22t": "50",
+                    "s12": "75",
+                    "pourcentage_fibre": "10"
+                },
+                "epaisseur": 0.25,
+                "positionRelPlaque": 4
+            },
+            {
+                "__type__": "Pli",
+                "orientation": 45,
+                "materiau": {
+                    "__type__": "Materiau",
+                    "nom": "M1",
+                    "ref": "R1",
+                    "E1": "134000",
+                    "E2": "7000",
+                    "G12": "4200",
+                    "v12": "0.25",
+                    "s11c": "-1400",
+                    "s22c": "-200",
+                    "s11t": "1500",
+                    "s22t": "50",
+                    "s12": "75",
+                    "pourcentage_fibre": "10"
+                },
+                "epaisseur": 1.0,
+                "positionRelPlaque": 5
+            },
+            {
+                "__type__": "Pli",
+                "orientation": 0,
+                "materiau": {
+                    "__type__": "Materiau",
+                    "nom": "M1",
+                    "ref": "R1",
+                    "E1": "134000",
+                    "E2": "7000",
+                    "G12": "4200",
+                    "v12": "0.25",
+                    "s11c": "-1400",
+                    "s22c": "-200",
+                    "s11t": "1500",
+                    "s22t": "50",
+                    "s12": "75",
+                    "pourcentage_fibre": "10"
+                },
+                "epaisseur": 0.25,
+                "positionRelPlaque": 6
+            }
+        ],
+        "zmin": -0.75
+    },
+    "n_pli_ajout": 1,
+    "pli_aj": {
+        "__type__": "Pli",
+        "orientation": 0,
+        "materiau": {
+            "__type__": "Materiau",
+            "nom": "M1",
+            "ref": "R1",
+            "E1": "134000",
+            "E2": "7000",
+            "G12": "4200",
+            "v12": "0.25",
+            "s11c": "-1400",
+            "s22c": "-200",
+            "s11t": "1500",
+            "s22t": "50",
+            "s12": "75",
+            "pourcentage_fibre": "10"
+        },
+        "epaisseur": 0.25,
+        "positionRelPlaque": 6
+    }
+}
